@@ -142,16 +142,33 @@ i.english{
     margin-top: 18px;
 }
 .shop-block{
-    margin: 60px;
+    margin-top: 60px;
+    /* border: solid 1px orange; */
 }
 .shop-left{
     float: left;
-    margin-left: -60px;
 }
 .shop-right{
     float: left;
-    margin-left: -1px;
+    margin: 0px -1px -1px 0;
     width: 298px;
     height: 295px;
+    border: solid 1px;
+    /* padding: -1px; */
     overflow: hidden;
+}
+.news-part{
+    margin-top: 40px;
+}
+.news-left{
+    position: relative;
+    width: 600px;
+}
+.news-pic{
+    display: block;
+    width: 600px;
+}
+.newscont{
+    position: relative;
+    width: 504px;
 }
